@@ -24,7 +24,7 @@ void main() {
     printf("List product order is:\n");
     for(i=0;i<n;i++) {
         printf("%d\t%s\t%d\t%2f\t%s\t%2f\n", i+1, pname[i], qty[i], price[i], Date[i], qty[i]*price[i]);
-		A = A + qty[i] * price[i];
+	A = A + qty[i] * price[i];
     }
     printf("Total Amount = %f", A);
 }
